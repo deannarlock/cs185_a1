@@ -1,0 +1,45 @@
+.header {
+	color: rgb(76, 125, 189);
+}
+
+.page {
+	background-color: rgb(230,230,230);
+}
+
+.back-home {
+	display: flex;
+	padding: 15px;
+}
+
+.back-home > div {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	padding: 10px;
+}
+
+.back-home > div > a:link {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.back-home > div > a:visited {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+}
+
+.row > div {
+	width: 50%;
+	height: 500px;
+	padding: 15px;
+	text-align: center;
+}
+
+.row > div > iframe {
+	width: 100%;
+	height: 100%;
+}
