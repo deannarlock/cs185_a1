@@ -1,3 +1,50 @@
+.header {
+	color: rgb(76, 125, 189);
+}
+
+.page {
+	background-color: rgb(230,230,230);
+}
+
+.nav-bar {
+	display: flex;
+	padding: 10px;
+}
+
+
+.nav-bar > .tab {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	padding: 10px;
+	width: 70px;
+	margin: 5px;
+	text-align: center;
+}
+
+.tab > a:link {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.tab > a:visited {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
 .main-body {
 	display: flex;
 }
+
+.image-div {
+	max-width: 40%;
+}
+
+.profile-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.profile-text {
+	padding: 10px;
+}
+

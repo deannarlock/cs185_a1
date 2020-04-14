@@ -1,0 +1,55 @@
+.header {
+	color: rgb(76, 125, 189);
+}
+
+.page {
+	background-color: rgb(230,230,230);
+}
+
+.back-home {
+	display: flex;
+	padding: 15px;
+}
+
+.back-home > div {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	padding: 10px;
+}
+
+.back-home > div > a:link {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.back-home > div > a:visited {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.gallery {
+	background-color: rgb(220,220,220);
+	max-width: 100%;
+}
+
+.gallery > div {
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+}
+
+.gallery > div > div {
+	width: 33%;
+	height: auto;
+	padding: 15px;
+}
+
+.gallery > div > div > a {
+	max-width: 100%;
+	position: center;
+}
+
+.gallery > div > div > a > img {
+	max-width: 100%;
+	position: center;
+}
