@@ -6,23 +6,53 @@
 	background-color: rgb(230,230,230);
 }
 
-.back-home {
+.nav-bar {
 	display: flex;
-	padding: 15px;
-}
-
-.back-home > div {
-	background-color: rgb(210, 210, 210);
-	color: black;
 	padding: 10px;
 }
 
-.back-home > div > a:link {
+.nav-bar > .active-tab {
+	background-color: rgb(140,140,140);
+	color: black;
+	padding: 10px;
+	width: 70px;
+	margin: 5px;
+	text-align: center;
+}
+
+.nav-bar > .tab {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	padding: 10px;
+	width: 70px;
+	margin: 5px;
+	text-align: center;
+}
+
+.nav-bar > .active-tab:hover {
+	background-color: rgb(120,120,120);
+}
+
+.nav-bar > .tab:hover {
+	background-color: rgb(170,170,170);
+}
+
+.active-tab > a:link {
 	color: rgb(55,55,55);
 	text-decoration: none;
 }
 
-.back-home > div > a:visited {
+.active-tab > a:visited {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.tab > a:link {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.tab > a:visited {
 	color: rgb(55,55,55);
 	text-decoration: none;
 }

@@ -6,23 +6,54 @@
 	background-color: rgb(230,230,230);
 }
 
-.back-home {
+.nav-bar {
 	display: flex;
-	padding: 15px;
-}
-
-.back-home > div {
-	background-color: rgb(210, 210, 210);
-	color: black;
 	padding: 10px;
 }
 
-.back-home > div > a:link {
+.nav-bar > .active-tab {
+	background-color: rgb(140,140,140);
+	color: black;
+	padding: 10px;
+	width: 70px;
+	margin: 5px;
+	text-align: center;
+}
+
+.nav-bar > .tab {
+	background-color: rgb(210, 210, 210);
+	color: black;
+	padding: 10px;
+	width: 70px;
+	margin: 5px;
+	text-align: center;
+}
+
+.nav-bar > .active-tab:hover {
+	background-color: rgb(120,120,120);
+}
+
+.nav-bar > .tab:hover {
+	background-color: rgb(170,170,170);
+}
+
+
+.active-tab > a:link {
 	color: rgb(55,55,55);
 	text-decoration: none;
 }
 
-.back-home > div > a:visited {
+.active-tab > a:visited {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.tab > a:link {
+	color: rgb(55,55,55);
+	text-decoration: none;
+}
+
+.tab > a:visited {
 	color: rgb(55,55,55);
 	text-decoration: none;
 }
@@ -40,9 +71,19 @@
 
 .gallery > div > div {
 	width: 33%;
-	height: auto;
 	padding: 15px;
 }
+
+.gallery > div > button {
+	width: 33%;
+	padding: 15px;
+}
+
+.gallery > div > button > img {
+	max-width: 100%;
+	position: center;
+}
+
 
 .gallery > div > div > a {
 	max-width: 100%;
@@ -52,4 +93,42 @@
 .gallery > div > div > a > img {
 	max-width: 100%;
 	position: center;
+}
+
+.window {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	bottom: 0%;
+	left: 0%;
+	background-color: rgb(200,200,200);
+	color: black;
+	padding: 15px;
+}
+
+.pop_cont {
+	position: fixed;
+	width: 50%;
+	top: 20%;
+	left: 20%;
+	vertical-align: middle;
+}
+
+.pop {
+	width: 100%;
+}
+
+.topButton {
+	display: none;
+	position: sticky;
+	bottom: 30px;
+	right: 30px;
+	background-color: rgb(200,200,200);
+	color: black;
+	padding: 15px;
+}
+
+.topButton:hover {
+	background-color: rgb(170,170,170);
 }
